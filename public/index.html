@@ -11,6 +11,27 @@
 </head>
 <body>
     <div id="cesiumContainer">
+        <div class="map-overlay-start">
+            <label>start :      </label>
+            <select id="startSelect">
+                <option>select</option>
+                <option value="Incheon">Incheon, Korea</option>
+                <option value="Jejudo">Jejudo, Korea</option>
+                <option value="Tokyo">Tokyo, Japan</option>
+                <option value="NewYork">NewYork, USA</option>
+            </select>
+        </div>
+        <div class="map-overlay-end">
+            <label>end : </label>
+            <select id="endSelect">
+                <option>select</option>
+                <option value="Incheon">Incheon, Korea</option>
+                <option value="Jejudo">Jejudo, Korea</option>
+                <option value="Tokyo">Tokyo, Japan</option>
+                <option value="NewYork">NewYork, USA</option>
+            </select>
+        </div>
+        <button id="airplane-go" type="button" value="GO!">GO!</button>
     </div>
     <div id="controlBox">
         <input id="inputModel" type="button" value="상자 넣기">

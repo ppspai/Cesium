@@ -1,4 +1,6 @@
-html, body, #cesiumContainer {
+html,
+body,
+#cesiumContainer {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -19,4 +21,83 @@ html, body, #cesiumContainer {
 
 #inputModel {
     margin-top: 3px;
+}
+
+.map-overlay-start {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    width: 150px;
+    top: 46px;
+    left: 10px;
+    /* padding: 10px; */
+    height: 20px;
+    color: white;
+}
+
+.map-overlay-end {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    width: 150px;
+    top: 85px;
+    left: 10px;
+    /* padding: 10px; */
+    height: 20px;
+    color: white;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    font-family: "Noto Sansf KR", sans-serif;
+    font-size: 11px;
+    /* font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5; */
+
+    color: #444;
+    /* background-color: #fff; */
+
+    /* padding: 0.6em 1.4em 0.5em 0.8em; */
+    margin: 0;
+
+    border: 1px solid #aaa;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+}
+
+#startSelect {
+    width: 80px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+#endSelect {
+    width: 80px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+#airplane-go {
+    width: 130px;
+    height: 20px;
+    z-index: 1;
+
+    position: absolute;
+    left: 10px;
+    /* padding: 10px; */
+    height: 20px;
+
+    top: 115px;
+    color: black;
+    background-color:none;
 }

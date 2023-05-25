@@ -225,13 +225,9 @@ $(window).on('load', function () {
             }
         })
 
-        viewer.zoomTo(temp);
+        viewer.trackedEntity = temp;
 
         let isMoving = true;
-
-        const handleRouteChange = () => {
-            isMoving = true;
-        }
 
         const handleArrival = () => {
             isMoving = false;

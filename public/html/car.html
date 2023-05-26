@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="../js/Cesium-1.87.1/Build/Cesium/Cesium.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script type="module" src="../js/airplane.js"></script>
+    <link href="../js/Cesium-1.87.1/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <link href="../css/airplane.css" rel="stylesheet">
+</head>
+    
+<body>
+    <div id="cesiumContainer">
+        <div class="map-overlay-start">
+            <label>Model : </label>
+            <select id="modelSelect">
+                <option value="select">select</option>
+                <option value="MilkTruck">MilkTruck</option>
+                <option value="GroundVehicle">GroundVehicle</option>
+            </select>
+        </div>
+        <div class="map-overlay-end">
+            <label>Routes : </label>
+            <select id="endSelect">
+                
+            </select>
+        </div>
+        <button id="airplane-go" type="button" value="GO!">GO!</button>
+    </div>
+</body>
+
+</html>
